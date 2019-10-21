@@ -1,0 +1,291 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'PT Serif Caption', serif;
+  background: white;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'PT Serif Caption', serif;
+}
+h1 {
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+}
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+}
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+.text-content {
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  padding: 1%;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  .text-content {
+    width: 85vw;
+    margin: 0 auto;
+    padding-bottom: 5%;
+  }
+}
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  font-size: 16px;
+  margin: 20px;
+  width: 50%;
+}
+@media (max-width: 500px) {
+  .navBar {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  font-size: 4rem;
+}
+.MentorMe-info {
+  margin: 20px;
+}
+@media (max-width: 500px) {
+  .MentorMe-info {
+    display: flex;
+    margin-bottom: 0px 4%;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+  }
+}
+.footer {
+  width: 100%;
+  background: darkgrey;
+  position: fixed;
+  bottom: 0;
+}
+.footer p {
+  text-align: center;
+  color: #212529;
+  font-size: 1.6rem;
+  padding: 20px;
+}
+.btn {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: lightgrey;
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+  width: 25%;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+@media (max-width: 500px) {
+  .btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.home .content-section {
+  margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media (max-width: 500px) {
+  .home .content-section {
+    display: flex;
+    margin-bottom: 0 4%;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+  }
+}
+.home .content-section .text-content {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  padding: 1%;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  .home .content-section .text-content {
+    width: 85vw;
+    margin: 0 auto;
+    padding-bottom: 5%;
+  }
+}
+.home .content-section .middle-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
