@@ -145,7 +145,7 @@ h5 {
   font-family: 'PT Serif Caption', serif;
 }
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   display: flex;
   justify-content: center;
   margin: 25px;
@@ -202,6 +202,7 @@ img {
   .navBar {
     display: flex;
     justify-content: space-around;
+    font-size: 12px;
   }
 }
 a {
