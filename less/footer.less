@@ -1,0 +1,33 @@
+.footer {
+  width: 100%;
+  background: lightgrey;
+  position: fixed;
+  bottom: 0;
+  
+  p {
+    text-align: center;
+    color: @font-color;
+    font-size: 1.6rem;
+    padding: 20px;
+  }
+}
+
+.btn {
+  .btn-style(10px, 20px, @plain, black, pointer);
+  font-size: 16px;
+  width: 25%;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+
+  @media @mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+
+
+  }
+
+}
